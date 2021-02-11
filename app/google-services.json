@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "855868581361",
+    "project_id": "pushnotification-ac4bb",
+    "storage_bucket": "pushnotification-ac4bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855868581361:android:c0cf71bfb615ea0c8d9050",
+        "android_client_info": {
+          "package_name": "com.example.phoneauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855868581361-j0phodkfov1ib7s64ect2vuupmmchuu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phoneauthentication",
+            "certificate_hash": "ac926ca9d70ffc0c3c5c8f4d107a158583bcac0f"
+          }
+        },
+        {
+          "client_id": "855868581361-tr07pe7qh9qgthto29fs0h2nmin8nqhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ZtmE79BiaYch0bi3RV3Est-ZDWG3gA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855868581361-tr07pe7qh9qgthto29fs0h2nmin8nqhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
