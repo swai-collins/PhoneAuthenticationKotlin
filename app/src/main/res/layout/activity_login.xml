@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/colorCustomPink">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/otp_layout"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:id="@+id/et_Otp"
+            android:hint="Enter Otp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginHorizontal="30sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Signup"
+            android:layout_marginHorizontal="50sp"
+            android:layout_marginTop="30dp"
+            android:text="@string/Sign_up"
+            android:textAllCaps="false"
+            android:background="@drawable/otp_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/phone_layout"
+        android:orientation="vertical">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:id="@+id/et_Phone"
+            android:hint="Phone No"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginHorizontal="20sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn_GetOtp"
+            android:text="@string/Send_otp"
+            android:textAllCaps="false"
+            android:background="@drawable/otp_button"/>
+        
+    </LinearLayout>
+
+
+</RelativeLayout>

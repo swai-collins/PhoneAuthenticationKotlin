@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhoneAuthentication</string>
+    <string name="Welcome">Welcome to FreeWroad!</string>
+    <string name="Send_otp">Get Otp</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="Succesful_signup">Successfully SignUp</string>
+</resources>
